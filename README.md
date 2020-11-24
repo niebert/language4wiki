@@ -46,3 +46,18 @@ will output
 }    
 to the console */
 ```
+
+Assume you want to create the options for a HTML select box with node you can create the code like this:
+```javascript
+var langs = require("language4wiki").languages;
+var html = "<select id='myselectbox'>"
+for (var i = 0; i < langs.length; i++) {
+  html += "\n  <option value='" + langs[i].value + "'>";
+  html += "\n    " + langs[i].text
+  html +) "\n  </option>";
+}
+html += "\n</select>";
+
+
+console.log("SELECT-BOX: \n" + html);
+```
