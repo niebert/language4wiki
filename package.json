@@ -1,0 +1,24 @@
+{
+  "name": "language4wiki",
+  "version": "1.0.0",
+  "description": "This is a language that supports language Javascript handling of AppLSACs to support the creation of support tools for learning resources. The provided package is used e.g. for language specific select boxes in HTML.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niebert/language4wiki.git"
+  },
+  "keywords": [
+    "MediaWiki",
+    "Wikiversity",
+    "AppLSAC"
+  ],
+  "author": "Engelbert Niehaus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niebert/language4wiki/issues"
+  },
+  "homepage": "https://github.com/niebert/language4wiki#readme"
+}
